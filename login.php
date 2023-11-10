@@ -262,9 +262,11 @@
         }
 
         footer{
+            min-height: 80vh;
             background-color: white;
             text-align: center;
             color:black;
+            position: relative;
             height: 48px;
             padding-top: 25px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
