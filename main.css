@@ -1,0 +1,223 @@
+nav {
+    background-color: #245518;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+  }
+  
+  .logo a {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+  }
+
+  .logo img {
+    margin-top: 10px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 0 10px;
+    
+  }
+
+  /*LOGIN*/
+
+  #login a{
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 20px;
+    margin:  0 0 20px;
+    color: #000;
+  }
+
+  #login a:hover{
+    background-color: #A9A9A9;
+    color: #000;
+  }
+  
+  .menu li a:hover {
+    color: #A9A9A9;
+  }
+
+  /*texto*/
+  .container {
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    font-size: 25px;
+  }
+  
+  .text {
+    flex: 1;
+    padding: 10px blue;
+  }
+
+  .text a {
+    text-decoration: none;
+    background-color: #245518;
+    border-radius: 100px;
+    /* padding: 10px blue; */
+    color: #fff;
+    font-size: 16px;
+  }
+
+  .text a:hover {
+    color: #444;
+  }
+  
+  .image {
+    flex: -2;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 70px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  /*Cards*/
+
+  .card-inicio {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 6em;
+  }
+
+  .card-inicio p{
+    color: #808080;
+  }
+
+   table {
+    text-align: center;
+   }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin: 60px ;
+    background-color: #245518;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .card-text {
+    text-align: justify;
+  }
+
+  .card:hover {
+    background-color: #fff;
+  }
+  
+  .card i {
+    font-size: 48px;
+    color: #000;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+  
+  .card-content {
+    display: none;
+    padding: 1px;
+    text-align: center;
+    opacity: 0;
+    background-color: #b6ffa1;
+    transition: all 0.3s ease;
+  }
+  
+  .card:hover i {
+    border-radius: 0;
+    opacity: 0;
+  }
+  
+  .card:hover .card-content {
+    display: block;
+    border-radius: 0;
+    opacity: 1;
+  }
+
+  /*Slide*/
+  .slider-container {
+    width: 100%;
+    overflow: hidden;
+    }
+
+  .slide {
+    display: none;
+  }
+
+  .slide img {
+    width: 80%;
+    height: auto;
+  }
+
+  /*Rodapé*/
+
+  .container-rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #245518;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 4000px;
+    padding: 40px 0;
+  }
+  
+  .contato,
+  .redes_sociais,
+  .desenvolvedores {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    padding: 8px;
+    margin-left: 5px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 25px;
+  }
+  
+  .desenvolvedores p {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .direitos p {
+    color: #fff;
+  }
+  
+  .direitos a {
+    color: #fff;
+  }
