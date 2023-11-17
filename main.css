@@ -92,6 +92,7 @@ nav {
     border-radius: 30px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   }
+<<<<<<< HEAD
 
   /*Cards*/
 
@@ -220,4 +221,19 @@ nav {
   
   .direitos a {
     color: #fff;
+=======
+  
+  .teste
+  {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 20px;
+    margin: 0 0 0 20px;
+    color: #000;
+  }
+  .row{
+    text-align: center;
+    font-size: 24px;
+    left: 2PX;
+>>>>>>> 20d435fe8608117909cf552c19d06612ae5f1c51
   }

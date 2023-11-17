@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
 
@@ -37,7 +39,7 @@
 
         form {
             width: 400px;
-            height: 560px;
+            height: 450px;
             box-sizing: border-box;
             border-radius: 5mm;
             padding: 40px 30px;
@@ -260,9 +262,11 @@
         }
 
         footer{
+            min-height: 80vh;
             background-color: white;
             text-align: center;
             color:black;
+            position: relative;
             height: 48px;
             padding-top: 25px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -278,6 +282,10 @@
             background-color: rgb(27, 87, 27);
             border-radius: 5mm;
             float: right;
+        }
+        h2{
+            color:white;
+            text-align: center;
         }
     </style>
 
@@ -297,26 +305,16 @@
     <div class="center">
         
         <form action="">
-            <div class="imguser"><img src="copia.png" alt="usuario" width="120" height="95"/> </div>
+            <h2>Login</h2> 
             <span class="inputs">
-                <span class="inputf">
-                    <input type="name" class="input" placeholder="Nome Completo" />
-                    <span class="label">Nome Completo</span>
-                    <span class="material-icons icon">nome</span>
-                </span>
                 <span class="inputf">
                     <input type="email" class="input" placeholder="Email" />
                     <span class="label">Email</span>
                     <span class="material-icons icon">email</span>
                 </span>
                 <span class="inputf">
-                    <input type="password" class="input" placeholder="Criar Senha" />
-                    <span class="label">Criar Senha</span>
-                    <span class="material-icons icon">lock</span>
-                </span>
-                <span class="inputf">
-                    <input type="password" class="input" placeholder="Confirmar Senha" />
-                    <span class="label">Confirmar Senha</span>
+                    <input type="password" class="input" placeholder="Password" />
+                    <span class="label">Password</span>
                     <span class="material-icons icon">lock</span>
                 </span>
             </span>
@@ -328,15 +326,7 @@
                 </label>
             </div>
             <button type="button" class="btn">
-                <span>Administrador</span>
-                <div class="dots">
-                    <div class="dot" style="--delay: 0s"></div>
-                    <div class="dot" style="--delay: 0.25s"></div>
-                    <div class="dot" style="--delay: 0.5s"></div>
-                </div>
-            </button>
-            <button type="button" class="btn">
-                <span>Coordenador</span>
+                <span>Login</span>
                 <div class="dots">
                     <div class="dot" style="--delay: 0s"></div>
                     <div class="dot" style="--delay: 0.25s"></div>
