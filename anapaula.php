@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/main.css">
     <!--Google Fonts and Icons-->
     <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
@@ -18,11 +18,11 @@
 
     <style type="text/css">
         body {
-            width: 100%;
-            height: 81vh;
+            /* width: 100%;
+            height: 100%;
             margin: 0;
-            padding: 0;
-            background-color: rgb(27, 87, 27);
+            padding: 0; */
+            /* background-color: rgb(27, 87, 27); */
         }
 
         .center {
@@ -31,13 +31,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background: url(../images/login-back.png);
             background-size: cover;
+            margin: 50px;
         }
 
         form {
             width: 400px;
-            height: 560px;
+            height: 600px;
             box-sizing: border-box;
             border-radius: 5mm;
             padding: 40px 30px;
@@ -47,7 +47,6 @@
             /* Changed to solid black */
             border: 0.5mm solid #022800;
             position: relative;
-            
         }
 
         .title {
@@ -253,7 +252,7 @@
             }
         }
 
-        .cabeca{
+        /* .cabeca{
              background-color: white;
              width: 100%;
             height: 65px;
@@ -278,7 +277,7 @@
             background-color: rgb(27, 87, 27);
             border-radius: 5mm;
             float: right;
-        }
+        } */
     </style>
 
 
@@ -286,18 +285,22 @@
 
 <body>
     
-    <div class="cabeca">
+    <!-- <div class="cabeca">
         <div class="ifimg">
         <img src="imagens/logoifrn.png" alt="logo do ifrn" width="190" height="55"/>
         </div>
         <div class="iconelogin">
             <p>login</p>
         </div>
-        </div>
+        </div> -->
+
+        <?php include 'bases/menu.php'?>
+        
     <div class="center">
         
         <form action="">
-            <div class="imguser"><img src="copia.png" alt="usuario" width="120" height="95"/> </div>
+            <!-- <div class="imguser"><img src="src/imagens/copia1.png" alt="usuario" width="120" height="95"/> </div> -->
+            <div class="title">Cadastro</div>
             <span class="inputs">
                 <span class="inputf">
                     <input type="name" class="input" placeholder="Nome Completo" />
@@ -343,11 +346,12 @@
                     <div class="dot" style="--delay: 0.5s"></div>
                 </div>
             </button>
-            <div class="text">
+            <?php include 'bases/rodape.php'?>
+            <!-- <div class="text">
                 New user? Create an account <a href="#">Register</a>
             </div>
         </form>
-    </div>
+    </div> -->
     <script>
         var btn = document.querySelector(".btn");
         var inputs = document.querySelectorAll(".input");
@@ -363,10 +367,7 @@
         };
     </script>
 
-    <footer>
-        Desenvolvedores: A. Paula, Denise S., Emily A., J. Vitor, M. Catarini, Matheus N.
-      
-    </footer>
+    
 </body>
 
 </html>

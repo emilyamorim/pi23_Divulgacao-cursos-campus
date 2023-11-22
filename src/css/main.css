@@ -186,8 +186,8 @@ nav {
     display: flex;
     flex-direction: row;
     color: #fff;
-    width: 4000px;
-    padding: 40px 0;
+    width: 400px;
+    padding: 4px 0;
   }
   
   .contato,
@@ -221,9 +221,9 @@ nav {
   
   .direitos a {
     color: #fff;
-=======
+  }
   
-  .teste
+  /* .teste
   {
     background-color: #fff;
     border-radius: 100px;
@@ -234,6 +234,5 @@ nav {
   .row{
     text-align: center;
     font-size: 24px;
-    left: 2PX;
->>>>>>> 20d435fe8608117909cf552c19d06612ae5f1c51
-  }
+    left: 2px;
+  } */
