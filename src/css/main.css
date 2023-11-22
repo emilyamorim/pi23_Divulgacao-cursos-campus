@@ -175,11 +175,10 @@ nav {
   }
 
   /*Rodapé*/
-
   .container-rodape {
     display: flex;
     justify-content: center;
-    background-color: #245518;
+    background-color: #333;
   }
   
   .footer {
@@ -221,9 +220,59 @@ nav {
   
   .direitos a {
     color: #fff;
-=======
+  }
+
+
+
+
+  /* .container-rodape {
+    display: flex;
+    justify-content: center;
+    background-color: #245518;
+  }
   
-  .teste
+  .footer {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    width: 400px;
+    padding: 4px 0;
+  }
+  
+  .contato,
+  .redes_sociais,
+  .desenvolvedores {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .social-links li {
+    display: inline-block;
+    padding: 8px;
+    margin-left: 5px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 25px;
+  }
+  
+  .desenvolvedores p {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .direitos p {
+    color: #fff;
+  }
+  
+  .direitos a {
+    color: #fff;
+  } */
+  
+  /* .teste
   {
     background-color: #fff;
     border-radius: 100px;
@@ -234,6 +283,5 @@ nav {
   .row{
     text-align: center;
     font-size: 24px;
-    left: 2PX;
->>>>>>> 20d435fe8608117909cf552c19d06612ae5f1c51
-  }
+    left: 2px;
+  } */

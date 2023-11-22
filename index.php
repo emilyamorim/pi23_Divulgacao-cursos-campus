@@ -1,27 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Divulgação de Cursos</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <?php include 'bases/head.php'?>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-            <a href=""><img src="imagens/iconecang.png" width="200"></a>
-          </div>
-        <ul class="menu">
-          <li id="login"><a href="login.html">Login</a></li>
-        </ul>
-      </nav>
+
+      <?php include 'bases/menu.php'?>
 
       <div class="container">
         <div class="text">
@@ -32,16 +16,16 @@
           </p>
         </div>
         <div class="image">
-          <img src="imagens/img_inicial.jpg" alt="Imagem">
+          <img src="src/imagens/img_inicial.jpg" alt="Imagem">
         </div>
       </div>
 
       <!-- <div class="card-inicio">
         <h1>CURSOS</h1>
         <p>Veja os cursos disponíveis:</p>
-    </div> -->
+    </div>
 
-    <!-- <table>
+    <table>
       <tr>
         <td>
           <div class="card">
@@ -93,7 +77,7 @@
       </tr>
     </table> -->
 
-    <div class="slider-container">
+    <!-- <div class="slider-container">
       <div class="slide">
           <img src="imagens/img1.jpg" alt="Slide 1">
       </div>
@@ -103,49 +87,8 @@
       <div class="slide">
           <img src="imagens/img3.jpg" alt="Slide 3">
       </div>
-      <!-- Adicione mais slides conforme necessário -->
-  </div>
+      -->
 
-  <div class="container-rodape">
-    <footer class="footer">
-      <div class="contato">
-        <h3>Entre em contato</h3>
-        <p>Endereço: 160 BR-101, S/N - Areia Branca, Canguaretama - RN</p>
-        <p>Telefone: (84) 4005-4114</p>
-        <p>Email: Direção Geral do Campus Canguaretama (DG)<br>
-          dg.cang@ifrn.edu.br</p>
-      </div>
-
-      <div class="redes_sociais">
-        <h3>Redes Sociais</h3>
-        <ul class="social-links">
-          <li><a href="#"><i class="fi fi-brands-facebook"></i></a></li>
-          <li><a href="#"><i class="fi fi-brands-instagram"></i></a></li>
-          <li><a href="#"><i class="fi fi-brands-youtube"></i></a></li>
-          <li><a href=""><i class="fi fi-brands-twitter-alt-square"></i></a></li>
-          <li><a href=""><i class="fi fi-brands-linkedin"></i></a></li>
-        </ul>
-      </div>
-
-      <div class="desenvolvedores">
-        <h3>Desenvolvedores</h3>
-        <p>Ana Paula Alves</p>
-        <p>Denise Silva</p>
-        <p>Emily Amorim</p>
-        <p>João Victor</p>
-        <p>Matheus Nascimento</p>
-        <p>Maria Catarini Irineu</p>
-      </div>
-    </div>
-
-      <div class="container-rodape">
-        <div class="direitos">
-          <p>&copy; 2023 DIVULGAÇÃO DE CURSOS. Todos os direitos reservados.
-          <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>
-        </div>
-      </div>
-  </footer>
-
-  <script src="script.js"></script>
+      <?php include 'bases/rodape.php'?>
 </body>
 </html>
