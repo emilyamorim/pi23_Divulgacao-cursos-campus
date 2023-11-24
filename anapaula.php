@@ -18,16 +18,16 @@
 
     <style type="text/css">
         body {
-            /* width: 100%;
-            height: 100%;
+            width: 100%;
+            height: 93vh;
             margin: 0;
-            padding: 0; */
-            /* background-color: rgb(27, 87, 27); */
+            padding: 0;
+            background: linear-gradient(#0d1a06, #008000);
         }
 
         .center {
             width: 100%;
-            height: 100%;
+            height: 80%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -252,54 +252,23 @@
             }
         }
 
-        /* .cabeca{
-             background-color: white;
-             width: 100%;
-            height: 65px;
+        .imguser {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-
-        footer{
-            background-color: white;
-            text-align: center;
-            color:black;
-            height: 48px;
-            padding-top: 25px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            
-        }
-
-        img{
-            margin-left: 15px;
-            margin-top: 3px;
-        }
-
-        .inconelogin{
-            background-color: rgb(27, 87, 27);
-            border-radius: 5mm;
-            float: right;
-        } */
     </style>
-
-
 </head>
 
 <body>
-    
-    <!-- <div class="cabeca">
-        <div class="ifimg">
-        <img src="imagens/logoifrn.png" alt="logo do ifrn" width="190" height="55"/>
-        </div>
-        <div class="iconelogin">
-            <p>login</p>
-        </div>
-        </div> -->
-
-        <?php include 'bases/menu.php'?>
         
     <div class="center">
         
         <form action="">
-            <!-- <div class="imguser"><img src="src/imagens/copia1.png" alt="usuario" width="120" height="95"/> </div> -->
+            <div class="imguser">
+                <img src="src/imagens/icone.png" alt="usuario" width="40%" height="100%"/> 
+            </div>
+
             <div class="title">Cadastro</div>
             <span class="inputs">
                 <span class="inputf">
@@ -323,13 +292,7 @@
                     <span class="material-icons icon">lock</span>
                 </span>
             </span>
-            <div class="links">
-                <a href="#">Forgot Password</a>
-                <label for="remember">
-                    <input type="checkbox" id="remember" />
-                    Remember Me
-                </label>
-            </div>
+            
             <button type="button" class="btn">
                 <span>Administrador</span>
                 <div class="dots">
@@ -346,12 +309,8 @@
                     <div class="dot" style="--delay: 0.5s"></div>
                 </div>
             </button>
-            <?php include 'bases/rodape.php'?>
-            <!-- <div class="text">
-                New user? Create an account <a href="#">Register</a>
-            </div>
-        </form>
-    </div> -->
+    </div>
+
     <script>
         var btn = document.querySelector(".btn");
         var inputs = document.querySelectorAll(".input");
@@ -366,8 +325,6 @@
             }, 3000);
         };
     </script>
-
-    
 </body>
 
 </html>

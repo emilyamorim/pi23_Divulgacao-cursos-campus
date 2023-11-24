@@ -15,7 +15,7 @@
     <style>
     body {
         width: 100%;
-        height: 100vh;
+        height: 95vh;
         margin: 0;
         padding: 0;
         background: linear-gradient(#0d1a06, #008000);
@@ -27,20 +27,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: linear-gradient(#0d1a06, #008000);
+        /* background: linear-gradient(#0d1a06, #008000); */
         background-size: cover;
         margin: 30px;
     }
 
     form {
         width: 400px;
-        height: 450px;
+        height: 500px;
         box-sizing: border-box;
         border-radius: 5mm;
         padding: 40px 30px;
         backdrop-filter: blur(5px) saturate(160%);
         -webkit-backdrop-filter: blur(5px) saturate(160%);
-        background: #000; /* Changed to solid black */
+        background: #022800; 
         border: 0.5mm solid rgba(0, 0, 0, 0.65);
         position: relative;
     }
@@ -243,12 +243,22 @@
         margin-left: 0px;
         }
     }
+
+    .imguser {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
   </head>
   <body>
-    <!-- <?php include 'bases/menu.php'?> -->
+    
     <div class="center">
       <form action="">
+        <div class="imguser">
+            <img src="src/imagens/icone.png" alt="usuario" width="40%" height="100%"/> 
+        </div>
+
         <div class="title">Login</div>
         <span class="inputs">
           <span class="inputf">
@@ -258,15 +268,15 @@
           </span>
           <span class="inputf">
             <input type="password" class="input" placeholder="Password" />
-            <span class="label">Password</span>
+            <span class="label">Senha</span>
             <span class="material-icons icon">lock</span>
           </span>
         </span>
         <div class="links">
-          <a href="#">Forgot Password</a>
+          <a href="#">Esqueceu sua senha</a>
           <label for="remember">
             <input type="checkbox" id="remember" />
-            Remember Me
+            Lembre de mim
           </label>
         </div>
         <button type="button" class="btn">
@@ -278,7 +288,7 @@
           </div>
         </button>
         <div class="text">
-          New user? Create an account <a href="#">Register</a>
+            Novo usuário? Crie sua contra <a href="#">Cadastre-se</a>
         </div>
       </form>
     </div>
@@ -296,6 +306,7 @@
         }, 3000);
       };
     </script>
-    <!-- <?php include 'bases/rodape.php'?> -->
+   
   </body>
 </html>
+
