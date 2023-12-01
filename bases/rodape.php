@@ -26,7 +26,7 @@
         <p>Emily Amorim</p>
         <p>João Victor</p>
         <p>Matheus Nascimento</p>
-        <p>Maria Catarini Irineu</p>
+        <p>Maria Catarini</p>
       </div>
     </div>
 
