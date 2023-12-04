@@ -254,7 +254,7 @@
   <body>
     
     <div class="center">
-      <form action="">
+      <form action="bd_registro.php" method="post">
         <div class="imguser">
             <img src="src/imagens/icone.png" alt="usuario" width="40%" height="100%"/> 
         </div>
