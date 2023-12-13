@@ -35,7 +35,12 @@ nav {
     padding: 0 10px;
     
   }
-
+  h1{
+    text-align: center;
+}
+h3{
+  text-align: center;
+}
   /*LOGIN*/
 
   #login a{
@@ -92,7 +97,7 @@ nav {
     border-radius: 30px;
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
   }
-<<<<<<< HEAD
+
 
   /*Cards*/
 
@@ -222,7 +227,9 @@ nav {
     color: #fff;
   }
 
-
+.teste{
+  margin: 0 auto;
+}
 
 
   /* .container-rodape {

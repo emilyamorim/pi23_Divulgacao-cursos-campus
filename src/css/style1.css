@@ -7,7 +7,12 @@
     background: url(../images/login-back.png);
     background-size: cover;
 }
-
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
 form {
     width: 400px;
     height: 450px;

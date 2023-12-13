@@ -7,7 +7,12 @@ nav {
     padding: 0 48px;
     
   }
-  
+  h1{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
   .logo a {
     color: #000;
     font-size: 24px;

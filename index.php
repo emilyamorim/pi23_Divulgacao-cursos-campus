@@ -20,6 +20,13 @@
         </div>
       </div>
 
+
+
+
+
+      <h1>Estude no IFRN</h1>
+
+      <h3>Acesse nosso catálogo de cursos</h3>
       <!-- <div class="card-inicio">
         <h1>CURSOS</h1>
         <p>Veja os cursos disponíveis:</p>
