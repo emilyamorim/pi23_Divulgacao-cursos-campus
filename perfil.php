@@ -15,6 +15,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <style type="text/css">
         body {
@@ -24,7 +27,6 @@
             padding: 0;
             background: linear-gradient(#0d1a06, #008000);
         }
-
         .center {
             width: 100%;
             height: 80%;
@@ -34,7 +36,6 @@
             background-size: cover;
             margin: 50px;
         }
-
         form {
             width: 400px;
             height: 650px;
@@ -48,7 +49,6 @@
             border: 0.5mm solid #022800;
             position: relative;
         }
-
         .title {
             width: 100%;
             font-family: poppins;
@@ -57,8 +57,6 @@
             margin-bottom: 20px;
             color: white;
         }
-
-
         .label {
             position: absolute;
             top: 0;
@@ -71,27 +69,24 @@
             z-index: -1;
             transition: 0.25s ease-out;
         }
-
         img {
     margin: 10px 0 0 0;
     right: 8.4em;
     border: 1px solid;
     border-radius: 10px;
-}
-
         .imguser {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-
         h3 {
     font-weight: bold;
     color:beige;
 }
 li p {
     color:beige;
-} 
+    color:beige;
+}
 
     </style>
 </head>
@@ -99,41 +94,14 @@ li p {
 <body>
         
     <div class="center">
-        
-        <form action="">
-            <div class="imguser">
-                <img src="igor.heic" alt="usuario" width="40%" height="100%"/> 
-            </div>
-
-            <div class="title">Coordenador</div>
-            <ul>
-            <li>
-                <h3 class="nome-conteudo">Nome:</h3>
-                <p>Igor Augusto de Carvalho Alves </p>
-            </li>
-            <li>
-                <h3>Matricula</h3>
-                <p>2787950</p>
-            </li>
-            <li>
-                <h3>
-                    Coordenador:
-                </h3>
-                <p>Informatica</p>
-            </li>
-            <li>
-                <h3>Especialização:</h3>
-                <p></p>
-            </li>
-            <li>
-                <h3>Meios de Contato:</h3>
-                <p>55 84 xxxxx-xxxx</p>
-                <p>igor.alves@ifrn.edu.br</p>
-            </li>
-        </ul>
-            </span>
-            
+    <div class="card" style="width: 18rem;">
+  <img src="perfil.preto.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text"></p>
+    <a href="#" class="btn btn-primary">Meus dados</a>
+  </div>
+</div>  
     </div>
 </body>
-
 </html>
