@@ -61,7 +61,7 @@ h3{
   }
 
   /*texto*/
-  .container {
+  .container2 {
     display: flex;
     align-items: center;
     padding: 0 48px;
@@ -184,6 +184,7 @@ h3{
     display: flex;
     justify-content: center;
     background-color: #333;
+    margin-top: 90px;
   }
   
   .footer {
@@ -233,12 +234,16 @@ h3{
 .text1 {
   text-decoration: none;
   background-color: #008000;
-  border-radius: 40px;
+  border-radius: 60px;
   padding: 5px;
   color: #fff;
   font-size: 16px;
-  width: 150px;
+  width: 300px;
   text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+
+
 }
 
   /* .container-rodape {

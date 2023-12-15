@@ -7,7 +7,7 @@
 
       <?php include 'bases/menu.php'?>
 
-      <div class="container">
+      <div class="container container2">
         <div class="text">
           <h2>Sobre a instituição...</h2>
           <p>
@@ -23,19 +23,46 @@
 
 
 
-     
+         
       <h1>Estude no IFRN</h1>
+      <br>
       <h3>Acesse nosso catálogo de cursos</h3>
-<div class= "text1">
-       <h4>Cursos integrados</h4>
+<br>
+<br>
+<br>
+<br>
+      <div class="container">
+<div class="row">
+
+
+<div class="col-4">
+    <div class= "text1">
+  <a href="integrado.php"><font color=white> <h4>Cursos integrados</h4></font></a>
+    </div>
 </div>
 
-<div class= "text1">
-      <h4> Cursos subsequentes</h4>
-      </div>
-      <div class= "text1">
-      <h4>Cursos superiores</h4>
-      </div>
+
+<div class="col-4">
+    <div class= "text1">
+  <a href="subseguente.php"><font color=white> <h4>Cursos subsequentes</h4></font></a>
+    </div>
+</div>
+
+
+<div class="col-4">
+    <div class= "text1">
+   <a href="superiores.php"> <font color=white> <h4>Cursos superiores</h4></font></a>
+    </div>
+</div>
+
+
+
+
+</div>
+</div>
+
+
+
       <!-- <div class="card-inicio">
         <h1>CURSOS</h1>
         <p>Veja os cursos disponíveis:</p>

@@ -7,14 +7,14 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='src/css/main.css'>
     <script src='main.js'></script>
 </head>
 <body>
 
     <nav>
         <div class="logo">
-            <a href=""><img src="imagens/iconecang.png" width="200"></a>
+            <a href=""><img src="src/imagens/iconecang.png" width="200"></a>
           </div>
         <ul class="menu">
           <li id="login"><a href="login.php">Login</a></li>
@@ -37,16 +37,16 @@
        
     <!-- Button trigger modal -->
     
-<button type="button" class="teste" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <i class="bi bi-pc-display-horizontal"></i></i><br/>Técnico integrado em informática
-  </button>
+<p class="text-center"><button type="button" class="teste" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<i class="bi bi-pc-display-horizontal"></i></i><br/>Curso Técnico Integrado em Informática
+  </button></p>
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">O Curso Técnico Integrado em Informática forma profissionais que desenvolvem programas de computador, seguindo as especificações e paradigmas da lógica de programação e das linguagens de programação; utilizam ambientes de desenvolvimentos de sistemas, sistemas operacionais e banco de dados; realizam testes de software, mantendo registro que possibilitem análises e refinamento dos resultados; executam manutenção de programas de computadores implantados. Possibilidades de atuação: Instituições públicas, privadas e do terceiro setor que demandem sistemas computacionais, especialmente envolvendo programação de computadores.</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Curso Técnico Integrado em Informática forma profissionais que desenvolvem programas de computador, seguindo as especificações e paradigmas da lógica de programação e das linguagens de programação; utilizam ambientes de desenvolvimentos de sistemas, sistemas operacionais e banco de dados; realizam testes de software, mantendo registro que possibilitem análises e refinamento dos resultados; executam manutenção de programas de computadores implantados. Possibilidades de atuação: Instituições públicas, privadas e do terceiro setor que demandem sistemas computacionais, especialmente envolvendo programação de computadores</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -55,6 +55,7 @@
                     <br/>
                     Carga horária:
                     4040h
+
                     <br/>
                     Duração:
                     Quatro anos
@@ -76,9 +77,10 @@
 </div>
 
 <div class="col">
-  <button type="button" class="teste" data-bs-toggle="modal" data-bs-target="#exampleModa2">
-    <i class="bi bi-balloon-fill"></i><br/>Técnico integrado em eventos
-  </button>
+<p class="text-center"><button type="button" class="teste" data-bs-toggle="modal" data-bs-target="#exampleModa2">
+<i class="bi bi-balloon-fill"></i><br/>Técnico integrado em eventos
+
+  </button></p>
   <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -92,6 +94,7 @@
                     <br/>
                     Carga horária:
                     3810h
+
                     <br/>
                     Duração:
                     Quatro anos
@@ -111,15 +114,17 @@
     </div>
   </div>
 </div>
-  <div class="col">
-  <button type="button" class="teste" data-bs-toggle="modal" data-bs-target="#exampleModa3">
-    <i class="bi bi-battery-charging"></i><i class="bi bi-wrench"></i><br/>Técnico integrado em eletromecânica
-  </button>
+  
+<div class="col">
+<p class="text-center"><button type="button" class="teste" data-bs-toggle="modal" data-bs-target="#exampleModa3">
+<i class="bi bi-battery-charging"></i><br/>Técnico integrado em Eletromecânica
+
+  </button></p>
   <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabe3">O Curso Técnico Integrado em Eletromecânica, presencial, tem como objetivo geral formar técnicos capazes de desenvolver atividades de planejamento, instalação, produção e manutenção de máquinas e equipamentos industriais, como também cidadãos críticos e conscientes quanto à busca pela melhoria da qualidade dos serviços prestados e à responsabilidade ambiental. Em consonância com o Catálogo Nacional de Cursos Técnicos – CNCT (2012), o egresso do Curso Técnico em Eletromecânica deverá estar apto a atuar em projetos e execução de instalações elétricas e mecânicas de equipamentos industriais conforme especificações técnicas, normas de segurança e de responsabilidade ambiental; exercer atividades de planejamento e execução da manutenção elétrica e mecânica de equipamentos industriais, além de projeto, instalação e manutenção de sistemas de acionamento elétrico e mecânico.</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabe3">Curso Técnico Integrado em Eletromecânica, presencial, tem como objetivo geral formar técnicos capazes de desenvolver atividades de planejamento, instalação, produção e manutenção de máquinas e equipamentos industriais, como também cidadãos críticos e conscientes quanto à busca pela melhoria da qualidade dos serviços prestados e à responsabilidade ambiental.</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -128,6 +133,7 @@
                     <br/>
                     Carga horária:
                     4110h
+
                     <br/>
                     Duração:
                     Quatro anos
@@ -147,7 +153,8 @@
     </div>
   </div>
 </div>
-</div>
+  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

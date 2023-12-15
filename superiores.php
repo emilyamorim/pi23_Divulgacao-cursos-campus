@@ -24,7 +24,7 @@
 </br>
       <div class="container">
         <div class="text">
-          <h1>Cursos integrados oferecidos pelo IFRN campus Canguaretama</h1>
+          <h1>Cursos superiores oferecidos pelo IFRN campus Canguaretama</h1>
          
         </div>
     </div>
