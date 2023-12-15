@@ -3,6 +3,7 @@
         <a href=""><img src="src/imagens/iconecang.png" width="200"></a>
     </div>
     <ul class="menu">
+        <li id="login"><a href="index.php">Home</a></li>
     <?php 
           // Verificar se sessão já foi iniciada anteriormentre
           if(session_id() == '')

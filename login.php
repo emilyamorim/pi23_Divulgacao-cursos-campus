@@ -250,11 +250,13 @@
             align-items: center;
         }
     </style>
+   
   </head>
   <body>
+ 
     
     <div class="center">
-      <form action="bd_registro.php" method="post">
+      <form action="php/bd_autenticacao.php" method="post">
         <div class="imguser">
             <img src="src/imagens/icone.png" alt="usuario" width="40%" height="100%"/> 
         </div>
@@ -262,12 +264,12 @@
         <div class="title">Login</div>
         <span class="inputs">
           <span class="inputf">
-            <input type="email" class="input" placeholder="Email" />
-            <span class="label">Email</span>
-            <span class="material-icons icon">email</span>
+            <input type="text" class="input" placeholder="Usuario" name="usuario" id="usuario" />
+            <span class="label">Usuario</span>
+            <span class="material-icons icon">usuario</span>
           </span>
           <span class="inputf">
-            <input type="password" class="input" placeholder="Password" />
+            <input type="password" class="input" placeholder="Senha" name="senha" id="senha"/>
             <span class="label">Senha</span>
             <span class="material-icons icon">lock</span>
           </span>
@@ -279,7 +281,13 @@
             Lembre de mim
           </label>
         </div>
-        <button type="button" class="btn">
+          <?php
+          if (isset($_GET['erro'])) {
+          echo "<p class='text-danger'>".$_GET['erro']."</p>";
+          }
+          ?>
+        
+        <button type="submit" class="btn">
           <span>Login</span>
           <div class="dots">
             <div class="dot" style="--delay: 0s"></div>
@@ -293,6 +301,7 @@
       </form>
     </div>
     <script>
+      /*
       var btn = document.querySelector(".btn");
       var inputs = document.querySelectorAll(".input");
       btn.onclick = function () {
@@ -304,9 +313,9 @@
         setTimeout(() => {
           inputs[1].classList.toggle("active");
         }, 3000);
-      };
+      };*/
     </script>
-   
+  
   </body>
 </html>
 

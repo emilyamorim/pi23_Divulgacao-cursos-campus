@@ -264,7 +264,7 @@
         
     <div class="center">
         
-        <form action="bd_registro.php" method="post">
+        <form action="php/bd_registro.php" method="post">
             <div class="imguser">
                 <img src="src/imagens/icone.png" alt="usuario" width="40%" height="100%"/> 
             </div>
@@ -272,28 +272,33 @@
             <div class="title">Cadastro</div>
             <span class="inputs">
                 <span class="inputf">
-                    <input type="name" class="input" placeholder="Nome Completo" />
+                    <input type="name" class="input" placeholder="Nome Completo" name="nome" id="nome"/>
                     <span class="label">Nome Completo</span>
                     <span class="material-icons icon">nome</span>
                 </span>
-                <span class="inputf">
+                <!--<span class="inputf">
                     <input type="email" class="input" placeholder="Email" />
                     <span class="label">Email</span>
                     <span class="material-icons icon">email</span>
+                </span>-->
+                <span class="inputf">
+                    <input type="name" class="input" placeholder="Nome de usuario" name="usuario" id="usuario" />
+                    <span class="label">Nome de usuario</span>
+                    
                 </span>
                 <span class="inputf">
-                    <input type="password" class="input" placeholder="Criar Senha" />
+                    <input type="password" class="input" placeholder="Criar Senha" name="senha" id="senha" />
                     <span class="label">Criar Senha</span>
                     <span class="material-icons icon">lock</span>
                 </span>
-                <span class="inputf">
+                <!--<span class="inputf">
                     <input type="password" class="input" placeholder="Confirmar Senha" />
                     <span class="label">Confirmar Senha</span>
                     <span class="material-icons icon">lock</span>
-                </span>
+                </span>-->
             </span>
             
-            <button type="submit" class="btn">
+            <!--<button type="submit" class="btn">
                 <span>Administrador</span>
                 <div class="dots">
                     <div class="dot" style="--delay: 0s"></div>
@@ -308,7 +313,14 @@
                     <div class="dot" style="--delay: 0.25s"></div>
                     <div class="dot" style="--delay: 0.5s"></div>
                 </div>
-            </button>
+            </button>-->
+            <button type="submit" class="btn">
+                <span>Cadastrar</span>
+                <div class="dots">
+                    <div class="dot" style="--delay: 0s"></div>
+                    <div class="dot" style="--delay: 0.25s"></div>
+                    <div class="dot" style="--delay: 0.5s"></div>
+                </div>
     </div>
 
     <script>

@@ -6,7 +6,7 @@ CREATE TABLE usuario(
 id INT AUTO_INCREMENT,
 nome VARCHAR(50) NOT NULL,
 usuario VARCHAR(10) NOT NULL,
-senha INT NOT NULL,
+senha CHAR(40) NOT NULL,
 PRIMARY KEY (id)
 );
 

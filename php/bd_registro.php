@@ -5,17 +5,17 @@ $usuario = $_POST["usuario"];
 $senha = $_POST["senha"];
 
 //Criptografar a senha
-$senha_cripto = md5($senha);
-
+$senha = md5($senha);
+echo $senha;
 //Conectar o banco de dados
-include "../banco/conexao.php";
+include "../conexao/conexao.php";
 $conn = conectar();
 
 //Definição da String do Insert
 $sql = "INSERT INTO usuario
 (nome, usuario, senha) VALUES
-('$nome', '$usuario', '$senha_cripto');";
-
+('$nome', '$usuario', '$senha');";
+echo $sql;
 //Executar o Insert
 $result = $conn->query($sql);
 
