@@ -264,7 +264,7 @@
         
     <div class="center">
         
-        <form action="bd_autenticacao.php" method="post">
+        <form action="bd_registro.php" method="post">
             <div class="imguser">
                 <img src="src/imagens/icone.png" alt="usuario" width="40%" height="100%"/> 
             </div>
@@ -293,7 +293,7 @@
                 </span>
             </span>
             
-            <button type="button" class="btn">
+            <button type="submit" class="btn">
                 <span>Administrador</span>
                 <div class="dots">
                     <div class="dot" style="--delay: 0s"></div>
@@ -301,7 +301,7 @@
                     <div class="dot" style="--delay: 0.5s"></div>
                 </div>
             </button>
-            <button type="button" class="btn">
+            <button type="submit" class="btn">
                 <span>Coordenador</span>
                 <div class="dots">
                     <div class="dot" style="--delay: 0s"></div>
