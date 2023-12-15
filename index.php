@@ -9,7 +9,11 @@
 
       <div class="container container2">
         <div class="text">
+          <br>
+          <br>
           <h2>Sobre a instituição...</h2>
+          <br>
+          <br>
           <p>
             O Campus Canguaretama do Instituto Federal do Rio Grande do Norte (IFRN) faz parte da terceira fase de expansão da Rede Federal de Educação Profissional, Científica e Tecnológica. Foi inaugurado no dia 2 de outubro de 2013, em cerimônia realizada no Campus Ceará Mirim do Instituto com a presença da Presidenta da República Dilma Rousseff. No dia 10 de outubro de 2013 o Campus foi entregue oficialmente à comunidade local em cerimônia realizada no auditório com a presença de servidores do instituto e membros da sociedade civil.
             Com foco de atuação estabelecido nas áreas de Eletromecânica, Turismo e Informática, a Unidade de Ensino conta com 16 salas de aula e 23 laboratórios. A escolha dessas áreas foi realizada junto à comunidade local, quando detectou-se uma carência de profissionais com qualificação nas mesmas para atender à vocação turística da cidade e às indústrias instaladas na região. Além de oferecer cursos técnicos, o Campus Canguaretama também desenvolverá ações de extensão e pesquisa que contribuam para o desenvolvimento social e econômico da região, integrando as ações do Campus com a comunidade e sociedade local.
@@ -22,7 +26,10 @@
 
 
 
-
+<br>
+<br>
+<br>
+  
          
       <h1>Estude no IFRN</h1>
       <br>
