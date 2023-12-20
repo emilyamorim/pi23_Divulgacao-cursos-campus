@@ -30,7 +30,7 @@
       </div>
     </div>
 
-      <div class="container-rodape">
+      <div class="container-rodape2">
         <div class="direitos">
           <p>&copy; 2023 DIVULGAÇÃO DE CURSOS. Todos os direitos reservados.
           <a href="#">Termos de Uso</a> | <a href="#">Política de Privacidade</a></p>

@@ -11,13 +11,13 @@
           
           if (!isset($_SESSION['usuario'])) {
           ?>
-        <li id="login"><a href="cadastro.php"><i class="bi bi-person-fill-add"></i> Cadastro</a> </li>
+        <li id="Cadastro"><a href="cadastro.php"><i class="bi bi-person-fill-add"></i> Cadastro</a> </li>
         <li id="login"><a href="login.php"><i class="bi bi-person-bounding-box"></i> Login</a></li>
         <?php 
           }else{
           ?>
-        <li id="login"><a href="perfil.php"><i class="bi bi-person-workspace"></i> Perfil</a></li>
-        <li id="login"><a href="sessao/remover_sessao.php"><i class="bi bi-person-fill-dash"></i> Sair</a></li>
+        <li id="Perfil"><a href="perfil.php"><i class="bi bi-person-workspace"></i> Perfil</a></li>
+        <li id="Sair"><a href="sessao/remover_sessao.php"><i class="bi bi-person-fill-dash"></i> Sair</a></li>
         <?php 
           }
           ?>

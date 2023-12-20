@@ -68,6 +68,42 @@ h3{
     background-color: #A9A9A9;
     color: #000;}
   
+  #Perfil a{
+      background-color: #fff;
+      border-radius: 100px;
+      padding: 20px;
+      margin:  0 0 20px;
+      color: #000;
+  }
+  
+  #Perfil a:hover{
+    background-color: #A9A9A9;
+    color: #000;}
+    
+  #Cadastro a{
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 20px;
+    margin:  0 0 20px;
+    color: #000;
+  }
+    
+  #Cadastro a:hover{
+    background-color: #A9A9A9;
+    color: #000;}
+  
+  #Sair a{
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 20px;
+    margin:  0 0 20px;
+    color: #000;
+  }
+      
+  #Sair a:hover{
+    background-color: #A9A9A9;
+    color: #000;}
+  
   .menu li a:hover {
     color: #A9A9A9;
   }
@@ -199,6 +235,13 @@ h3{
     justify-content: center;
     background-color: #333;
     margin-top: 90px;
+  }
+
+  .container-rodape2 {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin-top: 0px;
   }
   
   .footer {

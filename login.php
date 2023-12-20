@@ -1,3 +1,7 @@
+<?php
+if(session_id() == '')
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -250,10 +254,10 @@
             align-items: center;
         }
     </style>
-    
+     <?php include 'bases/head.php'?>
   </head>
   <body>
-  
+  <?php include 'bases/menu.php'?>
     
     <div class="center">
       <form action="php/bd_autenticacao.php" method="post">

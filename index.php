@@ -4,8 +4,8 @@
     <?php include 'bases/head.php'?>
 </head>
 <body>
-
-      <?php include 'bases/menu.php'?>
+   <?php include 'bases/menu.php'?>
+     
 
       <div class="container container2">
         <div class="text">
