@@ -20,88 +20,99 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <style type="text/css">
-        body {
-            width: 100%;
-            height: 93vh;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(#0d1a06, #008000);
-        }
-        .center {
-            width: 100%;
-            height: 80%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-size: cover;
-            margin: 50px;
-        }
-        form {
-            width: 400px;
-            height: 650px;
-            box-sizing: border-box;
-            border-radius: 5mm;
-            padding: 40px 30px;
-            backdrop-filter: blur(5px) saturate(160%);
-            -webkit-backdrop-filter: blur(5px) saturate(160%);
-            background: #022800;
-            /* Changed to solid black */
-            border: 0.5mm solid #022800;
-            position: relative;
-        }
-        .title {
-            width: 100%;
-            font-family: poppins;
-            font-size: 30px;
-            text-align: center;
-            margin-bottom: 20px;
-            color: white;
-        }
-        .label {
-            position: absolute;
-            top: 0;
-            left: 0;
-            color: white;
-            font-size: 13px;
-            font-weight: 500;
-            font-family: poppins;
-            opacity: 0;
-            z-index: -1;
-            transition: 0.25s ease-out;
-        }
-        img {
-    margin: 10px 0 0 0;
-    right: 8.4em;
-    border: 1px solid;
-    border-radius: 10px;
-        .imguser {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        h3 {
-    font-weight: bold;
-    color:beige;
+        * {
+  margin: 0;
+  padding: 0;
 }
-li p {
-    color:beige;
-    color:beige;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Arial";
+  gap:16px;
+  background-image: url("tricodando.png");
+  background: linear-gradient(#0d1a06, #008000);
+
+}
+.card {
+  background-color: #fff;
+  width: 180px;
+  height: 260px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 12px #aaaa;
+}
+.card img {
+  width: 100%;
+  height: 130px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  height: 50%;
+}
+.card h1 {
+  font-size: 1.2rem;
+}
+.card h2 {
+  font-size: .9rem;
+  color: #aaaa;
+}
+.card button {
+  background-color: #2192FF;
+  height: 60px;
+  border: none;
+  padding: 4px;
+  width: 100px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.card button:hover {
+  background-color: #137de8;
+  cursor: pointer;
 }
 
     </style>
 </head>
 
 <body>
-        
-    <div class="center">
-    <div class="card" style="width: 18rem;">
-  <img src="perfil.preto.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <p class="card-text"></p>
-    <a href="#" class="btn btn-primary">Meus dados</a>
-  </div>
-</div>  
+
+  <div class="card">
+    <img src="cara.png">
+    <div>
+      <button>Meus dados</button>
     </div>
+  </div>
+
+  <div class="card">
+    <img src="ensino.png">
+    <div>
+      <button>Modalidade</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="bolsa.png">
+    <div>
+      <button width="100px">Cursos</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="regua.png">
+    <div>
+      <button>Área</button>
+    </div>
+  </div>
+  
+</body>
+</html>
 </body>
 </html>
