@@ -250,10 +250,10 @@
             align-items: center;
         }
     </style>
-   
+    
   </head>
   <body>
- 
+  
     
     <div class="center">
       <form action="php/bd_autenticacao.php" method="post">

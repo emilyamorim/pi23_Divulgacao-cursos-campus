@@ -56,6 +56,17 @@ h3{
     background-color: #A9A9A9;
     color: #000;
   }
+  #Home a{
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 20px;
+    margin:  0 0 20px;
+    color: #000;
+  }
+
+  #Home a:hover{
+    background-color: #A9A9A9;
+    color: #000;}
   
   .menu li a:hover {
     color: #A9A9A9;

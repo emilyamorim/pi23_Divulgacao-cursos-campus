@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <nav>
+   <!--  <nav>
         <div class="logo">
             <a href=""><img src="src/imagens/iconecang.png" width="200"></a>
           </div>
@@ -20,7 +20,8 @@
           <li id="login"><a href="login.php">Login</a></li>
         </ul>
       </nav>
-</body>
+</body>--> 
+<?php include 'bases/menu.php'?>
 </br>
       <div class="container">
         <div class="text">
