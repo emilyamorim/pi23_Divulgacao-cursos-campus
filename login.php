@@ -27,7 +27,7 @@ if(session_id() == '')
 
     .center {
         width: 100%;
-        height: 100%;
+        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -319,7 +319,7 @@ if(session_id() == '')
         }, 3000);
       };*/
     </script>
-  
+   <?php include 'bases/rodape.php'?>
   </body>
 </html>
 
