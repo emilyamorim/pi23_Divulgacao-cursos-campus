@@ -27,6 +27,11 @@ nav {
     font-size: 16px;
   }
   
+
+  button.teste{
+   border-radius: 13px;
+   font-size: 30px;
+  }
   .menu li {
     margin-right: 10px;
   }
@@ -117,6 +122,7 @@ h3{
     align-items: center;
     padding: 0 px;
     font-size: 25px;
+    text-decoration: none;
   }
   
   
@@ -133,6 +139,9 @@ h3{
     /* padding: 10px blue; */
     color: #fff;
     font-size: 16px;
+  }
+  p.text-center{
+border-radius: 2px;
   }
 
   .text a:hover {
@@ -159,7 +168,9 @@ h3{
     font-size: 25px;
     margin-top: 6em;
   }
-
+.col{
+  text-decoration: none;
+}
   .card-inicio p{
     color: #808080;
   }
@@ -180,6 +191,9 @@ h3{
     transition: background-color 0.3s ease;
     cursor: pointer;
     border-radius: 50%;
+  }
+  a href{
+    text-decoration: none;
   }
 
   .card-text {

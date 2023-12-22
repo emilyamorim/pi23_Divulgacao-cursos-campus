@@ -29,7 +29,14 @@
           <h1>Cursos integrados oferecidos pelo IFRN campus Canguaretama</h1>
          
         </div>
-   
+   <br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
 
     <div class="row mt-5">
         <div class="col">

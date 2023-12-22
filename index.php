@@ -44,7 +44,7 @@
 
 <div class="col-4">
     <div class= "text1">
-  <a href="integrado.php"><font color=white> <h4>Cursos integrados</h4></font></a>
+  <a href="integrado.php"><font color=white > <h4>Cursos integrados</h4></font></a>
     </div>
 </div>
 
