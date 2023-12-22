@@ -20,21 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style type="text/css">
-        * {
-  margin: 0;
-  padding: 0;
-}
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: "Arial";
-  gap:16px;
-  background-image: url("tricodando.png");
-  background: linear-gradient(#0d1a06, #008000);
-
-}
+  
 .card {
   background-color: #fff;
   width: 180px;
@@ -84,7 +70,7 @@ body {
 
 <body>
 
-
+<?php include 'bases/menu.php'?>
 
  
  <div class="container">
@@ -92,9 +78,11 @@ body {
 
  <div class="col-3">
  <div class="card">
-    <img src="cara.png">
+ <a href="p_meus_dados.php">
+    <img src="cara.png" class="img-fluid">
     <div>
       <button>Meus dados</button>
+</a>
     </div>
   </div>
 
@@ -102,9 +90,11 @@ body {
 
   <div class="col-3">
   <div class="card">
-    <img src="ensino.png">
+  <a href="p_modalidade.php">
+    <img src="ensino.png" class="img-fluid">
     <div>
       <button>Modalidade</button>
+</a>
     </div>
   </div>
 
@@ -112,9 +102,11 @@ body {
 
 <div class="col-3">
   <div class="card">
-    <img src="bolsa.png">
+  <a href="p_cursos.php">
+    <img src="bolsa.png" class="img-fluid">
     <div>
       <button width="100px">Cursos</button>
+</a>
     </div>
   </div>
 
@@ -122,9 +114,11 @@ body {
 
 <div class="col-3">
   <div class="card">
-    <img src="regua.png">
+  <a href="p_areas.php">
+    <img src="regua.png" class="img-fluid">
     <div>
       <button>Área</button>
+</a>
     </div>
   </div>
 
@@ -133,6 +127,6 @@ body {
 </div>
 
   </div>
-  
+  <?php include 'bases/rodape.php'?>
 </body>
 </html>
