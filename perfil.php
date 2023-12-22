@@ -18,7 +18,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <style type="text/css">
         * {
   margin: 0;
@@ -84,13 +84,23 @@ body {
 
 <body>
 
-  <div class="card">
+
+
+ 
+ <div class="container">
+ <div class="row">
+
+ <div class="col-3">
+ <div class="card">
     <img src="cara.png">
     <div>
       <button>Meus dados</button>
     </div>
   </div>
 
+</div>
+
+  <div class="col-3">
   <div class="card">
     <img src="ensino.png">
     <div>
@@ -98,6 +108,9 @@ body {
     </div>
   </div>
 
+</div>
+
+<div class="col-3">
   <div class="card">
     <img src="bolsa.png">
     <div>
@@ -105,14 +118,21 @@ body {
     </div>
   </div>
 
+</div>
+
+<div class="col-3">
   <div class="card">
     <img src="regua.png">
     <div>
       <button>Área</button>
     </div>
   </div>
+
+  </div>
+
+</div>
+
+  </div>
   
-</body>
-</html>
 </body>
 </html>
