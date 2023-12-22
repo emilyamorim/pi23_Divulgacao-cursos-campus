@@ -23,11 +23,9 @@
 </body>--> 
 <?php include 'bases/menu.php'?>
 </br>
-      <div class="container">
+<div class="container-fluid corpo">
         <div class="text">
-          <h1>Curso subsequente oferecido pelo IFRN campus Canguaretama</h1>
-         
-        </div>
+          <h1>Curso subsequente oferecido pelo IFRN campus Canguaretama</h1>  
     </div>
 </br>
 </br>
@@ -77,7 +75,10 @@
     </div>
   </div>
 </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+  crossorigin="anonymous"></script>
+  <?php include 'bases/rodape.php'?>
 </body>
 </html>

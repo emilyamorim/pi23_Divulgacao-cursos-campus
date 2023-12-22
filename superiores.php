@@ -23,11 +23,11 @@
 </body>--> 
 <?php include 'bases/menu.php'?>
 </br>
-      <div class="container">
+<div class="container-fluid corpo">
         <div class="text">
           <h1>Cursos superiores oferecidos pelo IFRN campus Canguaretama</h1>
          
-        </div>
+        
     </div>
 </br>
 </br>
@@ -151,7 +151,7 @@
   </div>
 </div>
 </div>
-</div>
+
 
 <div class="row mt-5">
 <div class="col">
@@ -191,8 +191,7 @@
   </div>
 </div>
 
-<br>
-<br>
+
 <div class="col">
 <p class="text-center"><button type="button" class="teste" data-bs-toggle="modal" data-bs-target="#exampleModa2">
     <i class="bi bi-github"></i><br/>Tecnologia em Sistemas para Internet
@@ -230,6 +229,10 @@
     </div>
   </div>
 </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <?php include 'bases/rodape.php'?>
 </body>
 </html>
