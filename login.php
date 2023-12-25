@@ -158,7 +158,7 @@ if(session_id() == '')
         height: 40px;
         background: white;
         outline: none;
-        border: none;
+        border: 20px;
         cursor: pointer;
         border-radius: 6mm;
         display: flex;
@@ -168,7 +168,7 @@ if(session_id() == '')
     }
 
     .btn span {
-        color: rgb(40, 40, 40);
+        color: white;
         font-family: poppins;
         font-size: 16px;
     }

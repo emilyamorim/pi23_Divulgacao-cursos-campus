@@ -26,7 +26,7 @@ if($result->num_rows > 0){
         //Adicionar o nome à sessão
         session_start();
         $_SESSION["usuario"] = $row["nome"];
-        $_SESSION["id"] = $row["id"]
+        $_SESSION["id"] = $row["id"];
     }
     desconectar($conn);
     header("Location: ../perfil.php");
