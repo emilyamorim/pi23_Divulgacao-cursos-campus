@@ -8,13 +8,13 @@ include "conexao/conexao.php";
 
 $conn = conectar();
 
-$sql = "SELECT * FROM modalidades where id=$id";
+$sql = "SELECT * FROM modalidade where id=$id";
 
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
-    $nome_area = $row["nome"];
+    $nome = $row["nome"];
   }
 } else {
   echo "<td>Nenhuma modalidade cadastrada</td><td></td><td></td>";

@@ -18,7 +18,7 @@
 <div class="row mt-5 mb-5">
  <div class="col-lg-6">
    <h2>Cadastro de Areas</h2>
-   <form action="php/p_nucleo_adicionar_bd.php" method="post" enctype="multipart/form-data">
+   <form action="php/bd_p_area_adicionar.php" method="post" enctype="multipart/form-data">
  
   <p>
      <label for="nome">Nome:</label>

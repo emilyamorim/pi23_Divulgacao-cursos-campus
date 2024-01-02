@@ -8,13 +8,12 @@
 
     <!-- INCLUINDO CÓDIGO DE HEAD COMUM A TODAS AS PÁGINAS -->
     
+    <?php include 'bases/head.php'; ?>
 
 </head>
 
 <body>
-  <!-- INCLUINDO CÓDIGO DE MENU COMUM A TODAS AS PÁGINAS -->
   <?php include 'bases/menu.php'; ?>
-
 
   <div class="container">
 

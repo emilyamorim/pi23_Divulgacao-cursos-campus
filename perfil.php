@@ -90,7 +90,7 @@
 
   <div class="col-3">
   <div class="card">
-  <a href="p_modalidade.php">
+  <a href="p_modalidades.php">
     <img src="ensino.png" class="img-fluid">
     <div>
       <button>Modalidade</button>

@@ -1,4 +1,4 @@
-<?php include 'sessao/verificar_autenticado.php'; ?>
+<?php include 'sessao/verificar_autenticacao.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,7 +27,7 @@
 
 
  <p>
-    Selecione uma área:<br />
+    Modalidades cadastradas:<br />
     <?php
         include "conexao/conexao.php";
         $conn = conectar();
@@ -35,7 +35,7 @@
         $result = $conn->query($sql);
         if ($result->num_rows > 0) {
         while($row = $result->fetch_assoc()) {
-            echo "<input type='radio' name='area' value='".$row["id"]."' /> ".$row["nome"]."<br />";
+            echo "<input type='radio' name='nome' value='".$row["id"]."' /> ".$row["nome"]."<br />";
         }
         } else {
         echo "Nenhuma modalidade cadastrada";

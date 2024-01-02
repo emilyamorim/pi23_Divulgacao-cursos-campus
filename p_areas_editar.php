@@ -14,7 +14,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
-    $nome_area = $row["nome"];
+    $nome = $row["nome"];
   }
 } else {
   echo "<td>Nenhuma área cadastrada</td><td></td><td></td>";
@@ -43,7 +43,7 @@ desconectar($conn);
 <div class="row mt-5 mb-5">
  <div class="col-lg-6">
    <h2>Edição de Área</h2>
-   <form action="php/p_area_editar_bd.php" method="post">
+   <form action="php/bd_p_area_editar.php" method="post">
  <p>
      <label for="nome">Nome:</label>
      <input type="text" name="nome" id="nome" value="<?php echo $nome; ?>" />

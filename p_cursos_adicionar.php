@@ -12,7 +12,9 @@
 
 <body>
   <?php include 'bases/menu.php'; ?>
-
+ <?php if(session_id() == '')
+            session_start();
+        ?>
   <div class="container">
 
 <div class="row mt-5 mb-5">
