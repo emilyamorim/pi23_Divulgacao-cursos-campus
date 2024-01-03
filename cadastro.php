@@ -1,3 +1,7 @@
+<?php
+if(session_id() == '')
+  session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -258,10 +262,11 @@
             align-items: center;
         }
     </style>
+    <?php include 'bases/head.php'?>
 </head>
 
 <body>
-        
+<?php include 'bases/menu.php'?>
     <div class="center">
         
         <form action="php/bd_registro.php" method="post">
@@ -321,6 +326,7 @@
                     <div class="dot" style="--delay: 0.25s"></div>
                     <div class="dot" style="--delay: 0.5s"></div>
                 </div>
+                </button>
     </div>
 
     <script>
@@ -337,6 +343,7 @@
             }, 3000);
         };
     </script>
+    <?php include 'bases/rodape.php'?>
 </body>
 
 </html>

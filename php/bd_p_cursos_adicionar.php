@@ -1,4 +1,8 @@
 <?php
+if(session_id() == '')
+  session_start();
+?>
+<?php
 
 $nome = $_POST["nome"];
 $nome = $_POST["descricao"];

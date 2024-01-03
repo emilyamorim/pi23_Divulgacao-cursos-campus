@@ -300,7 +300,7 @@ if(session_id() == '')
           </div>
         </button>
         <div class="text">
-            Novo usuário? Crie sua contra <a href="#">Cadastre-se</a>
+            Novo usuário? Crie sua contra <a href="cadastro.php">Cadastre-se</a>
         </div>
       </form>
     </div>

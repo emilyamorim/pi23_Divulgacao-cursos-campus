@@ -19,7 +19,7 @@
 
   <div class="row mt-5 mb-5">
  <div class="col-lg-6">
-   <h2>Áreas</h2>
+   <h2>Cursos</h2>
   <p><a href="p_cursos_adicionar.php">Adicionar</a></p>
 
    <table class="table table-striped">
